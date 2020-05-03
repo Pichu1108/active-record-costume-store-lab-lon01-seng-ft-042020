@@ -11,15 +11,6 @@ class HountedHouses < ActiveRecord::Migration[5.1]
       t.datetime :closing_time
       t.text :description
 
-      name
-      location
-      theme
-      price
-      whether they're family friendly or not
-      opening date
-      closing date
-      long description
-
       t.timestamps null: false
     end
   end
