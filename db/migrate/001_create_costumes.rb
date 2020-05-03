@@ -4,6 +4,9 @@ class CreateCostumes
   def change
     create_table :costume do |t|
       t.string :name
+      t.string :size
+      t.string :image_url
+      t.float :price
     end
   end
 end
