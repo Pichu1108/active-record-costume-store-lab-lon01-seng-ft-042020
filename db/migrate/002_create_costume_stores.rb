@@ -12,13 +12,6 @@ class CreateCostumeStore < ActiveRecord::Migration[5.1]
 
       t.timestamps null: false
     end
-    name
-location
-number of costumes, or "costume inventory"
-number of employees
-whether or not it's still in business
-opening time
-closing time
   end
 end
 # !!! Before you run rake db:migrate, remember to fill out the other migration files -- otherwise you'll get an error resulting from the blank migration files.
