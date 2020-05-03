@@ -10,6 +10,7 @@ class CreateCostumeStore < ActiveRecord::Migration[5.1]
       t.datetime :opening_time
       t.datetime :closing_time
 
+      t.timestamps null: false
     end
     name
 location
